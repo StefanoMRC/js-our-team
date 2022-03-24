@@ -34,9 +34,9 @@ console.log(team)
 for(let i=0; i<team.length;i++){
     document.getElementById("cont").innerHTML+=
     `
-    <div class="col-12 col-md-6 col-lg-4 p-4">
-        <div class="card text-center" style="width: 23rem;">
-            <img src=./img/${team[i]['img']} class="card-img-top" alt="...">
+    <div class="col-12 col-md-6 col-lg-4 p-3">
+        <div class="card text-center" style="width: auto;">
+            <img src=./img/${team[i]['img']} class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${team[i]['nome']}</h5>
                     <p class="card-text">${team[i]['ruolo']}</p>
